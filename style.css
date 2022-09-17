@@ -8,7 +8,7 @@
     justify-content: center;
 }
 
-.card {
+/* .card {
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
@@ -19,6 +19,34 @@
     background-size: cover;
     width: 70vw;
     border-radius: 20px;
+} */
+@media(min-width:768px) {
+    .card {
+        margin: auto;
+        padding: 50px;
+        background-color: white;
+        background-size: cover;
+        width: 45vw;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px grey;
+    }
+}
+
+@media(max-width:767px) {
+    .card {
+        margin: auto;
+        padding: 50px;
+        background-color: white;
+        background-size: cover;
+        width: 70vw;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px grey;
+    }
+}
+
+#pass-prev {
+    font-size: 2.5vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .persons-enter {
